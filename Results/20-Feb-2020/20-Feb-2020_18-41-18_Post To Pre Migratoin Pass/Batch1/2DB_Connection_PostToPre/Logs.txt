@@ -1,0 +1,14 @@
+No of Keywords to be executed in DB_Connection_PostToPre:1
+Entering Design sheet Account Number 1001006291
+Entered in --- java.lang.ThreadLocal@f49969d
+connected to DB
+Account Number : 1001006291
+SELECT A.ACCOUNT_NO, DECODE(A.STATUS, '10100', 'Active', '10102', 'Inactive', '10103', 'Closed') ACC_STATUS, B.BILL_INFO_ID, DECODE(B.STATUS, '10100', 'Active', '10102', 'Inactive', '10103', 'Closed') BP_STATUS, B.ACTG_CYCLE_DOM BillCycle, SER.package_name, ser.primary_msisdn, P.NAME PRODUCT_NAME, PPT.PURCHASE_START_T PURCHASE_DATE, PPT.USAGE_START_T, PPT.CYCLE_START_T, ppt.cycle_end_t cycle_end, PPT.STATUS,PPT.PRICE_LIST_NAME   FROM PIN1.ACCOUNT_T A, pin1.PURCHASED_PRODUCT_T PPT, pin1.PRODUCT_T P, pin1.service_media_t SER, pin1.billinfo_t B  WHERE     PPT.PRODUCT_OBJ_ID0 = P.POID_ID0        AND PPT.ACCOUNT_OBJ_ID0 = A.POID_ID0        AND A.ACCOUNT_NO = '1001006291'        AND A.POID_ID0 = B.ACCOUNT_OBJ_ID0        and ser.obj_id0 = ppt.service_obj_id0        order by PPT.STATUS
+ACC_STATUS : Active
+BILL_INFO_ID : Active
+Service_Name : Contracted BD8
+Product_Name : 97371000117
+Purchase_Date : Contracted BD8
+Usage : 1582146000
+Cycle_Start : 1582146000
+------DB Validation - Completed------

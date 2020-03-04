@@ -1,0 +1,304 @@
+No of Keywords to be executed in ConsumerNewActivation:8
+------Siebel Login Event Details------
+Enviroment: Prod
+Project_Name: Batelco
+Url: http://10.6.5.175/ecommunications_oui/
+Browser Opened Successfully
+Final visible status is Login_User >>>>> true
+Batch1 :: Action SetText on Obj: Login_User - Value: MavericSiebel
+Final visible status is Login_Pswd >>>>> true
+Batch1 :: Action SetText on Obj: Login_Pswd - Value: dW1r*nW1e
+Opening Browser and navigating to the URL
+Login Successfully with user MavericSiebel
+------Siebel Login Event Details - Completed------
+------Contact Creation Event Details------
+Final visible status is Contacts >>>>> true
+Clicking on Contacts.
+Batch1 :: Action at Obj: MyContacts - is Visible
+Final visible status is MyContacts >>>>> true
+Final visible status is Add Contact:New >>>>> true
+ Creating New Contact
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Selecting Identification Type Passport
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering Identification Number 2802142031
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering the First Name.Autojob
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering the Last Name.oegMaveric
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Selecting Mr/MrsMr.
+Final visible status is Gender_bat >>>>> true
+Contact_Identification_Number : 2802142031
+Batch1 :: Action select on Obj: Nationality - Value: United Arab Emirates
+entered NationalityUnited Arab Emirates
+Final visible status is Date_Of_Birth >>>>> true
+Batch1 :: Action SetText on Obj: Date_Of_Birth - Value: 10/10/2000
+ Entering Date of Birth10/10/2000
+Final visible status is EmailAddress >>>>> true
+Batch1 :: Action SetText on Obj: EmailAddress - Value: karthikeyanm@maveric-systems.com
+Entered Email addresskarthikeyanm@maveric-systems.com
+Final visible status is IdentificationTypeExpiryDate >>>>> true
+Batch1 :: Action SetText on Obj: IdentificationTypeExpiryDate - Value: 5/31/2020
+Selecting Identification Type Expiry Date: 5/31/2020
+Batch1 :: Action select on Obj: Gender - Value: M
+Entered Gender: M
+Final visible status is MobileNo >>>>> true
+Batch1 :: Action SetText on Obj: MobileNo - Value: 97336442725
+Entered Mobile Number: 97336442725
+Batch1 :: Action at Obj: Lowrisk_btn - is Visible
+Final visible status is Lowrisk_btn >>>>> true
+Batch1 :: Action Click on Obj: Lowrisk_btn
+Batch1 :: Action at Obj: Lowrisk_searchbtn - is Visible
+Final visible status is Lowrisk_searchbtn >>>>> true
+Batch1 :: Action Click on Obj: Lowrisk_searchbtn
+Final visible status is Occupation_type >>>>> true
+Batch1 :: Action Click on Obj: Occupation_type
+Final visible status is Occupation_type >>>>> true
+Batch1 :: Action SetData on Obj: Occupation_type
+Batch1 :: Action at Obj: Occupation_okbtn - is Visible
+Final visible status is Occupation_okbtn >>>>> true
+Batch1 :: Action Click on Obj: Occupation_okbtn
+Batch1 :: Action at Obj: Bat_Contact_Menu - is Visible
+Final visible status is Bat_Contact_Menu >>>>> true
+Batch1 :: Action Click on Obj: Bat_Contact_Menu
+Batch1 :: Action at Obj: SaveRecord - is Visible
+ Save Contact
+Final visible status is SaveRecord >>>>> true
+Batch1 :: Action Click on Obj: SaveRecord
+Final visible status is Contacts >>>>> true
+Final visible status is MyContacts >>>>> true
+Batch1 :: Action Click on Obj: MyContacts
+Final visible status is Search_Contact_button >>>>> true
+Final visible status is Search_table >>>>> true
+Batch1 :: Action Click on Obj: Search_table
+Final visible status is Search_table >>>>> true
+Batch1 :: Action SetData on Obj: Search_table
+Dynamic Identification Number is : 2802142031
+Final visible status is Search_Contact_Go >>>>> false
+Final visible status is BT_Identification_Number >>>>> true
+Batch1 :: Action getCellData on Obj: BT_Identification_Number
+------Contact Creation Event Details - Completed------
+------Account Creation Event Details------
+Batch1 :: Action at Obj: Address - is Visible
+Final visible status is Address >>>>> true
+Batch1 :: Action at Obj: Address_list - is Visible
+Final visible status is Address_list >>>>> true
+Batch1 :: Action at Obj: New_Address - is Visible
+Final visible status is New_Address >>>>> true
+Batch1 :: Action Click on Obj: New_Address
+New Account Creation
+Final visible status is AccountIdentification_Type >>>>> true
+Batch1 :: Action Click on Obj: AccountIdentification_Type
+Final visible status is AccountIdentification_Type >>>>> true
+Batch1 :: Action SetText on Obj: AccountIdentification_Type - Value: Passport
+Account_Identification_Type : Passport
+Final visible status is account_number >>>>> true
+Batch1 :: Action SetDataE on Obj: account_number
+Entering Identification Number: 2802142031
+Final visible status is account_number >>>>> true
+Batch1 :: Action Click on Obj: account_number
+Final visible status is account_number >>>>> true
+Batch1 :: Action SetDataE on Obj: account_number
+ Entering Name: Maveric
+Final visible status is account_number >>>>> true
+Batch1 :: Action Click on Obj: account_number
+Final visible status is account_number >>>>> true
+Batch1 :: Action SetDataE on Obj: account_number
+Selecting Account Type: RESIDENTIAL - RES
+Final visible status is last_name >>>>> true
+Batch1 :: Action Click on Obj: last_name
+Final visible status is Contactlastname >>>>> true
+Batch1 :: Action Click on Obj: Contactlastname
+Final visible status is New_Query >>>>> true
+Batch1 :: Action Click on Obj: New_Query
+Final visible status is AddcontactQuery >>>>> true
+Batch1 :: Action Click on Obj: AddcontactQuery
+Final visible status is Idtype_seelction >>>>> true
+Batch1 :: Action SetData on Obj: Idtype_seelction
+Entering Identification Number in Account to Link a Contact:2802142031
+Final visible status is Mvg_Addcontact_go >>>>> true
+Batch1 :: Action Click on Obj: Mvg_Addcontact_go
+Final visible status is Contactmg_add >>>>> true
+Batch1 :: Action Click on Obj: Contactmg_add
+Adding Contact to Account
+Final visible status is Batcontactok >>>>> true
+Batch1 :: Action at Obj: Account_Menu - is Visible
+Final visible status is Account_Menu >>>>> true
+Batch1 :: Action Click on Obj: Account_Menu
+Batch1 :: Action at Obj: SaveRecord - is Visible
+Final visible status is SaveRecord >>>>> true
+Batch1 :: Action Click on Obj: SaveRecord
+The selected record has been modified by another user since it was retrieved.  Please continue.(SBL-DAT-00523)(SBL-EXL-00151)
+Final visible status is account_number >>>>> true
+Final visible status is account_number >>>>> true
+Batch1 :: Action getCellData on Obj: account_number
+Final visible status is account_number >>>>> true
+Batch1 :: Action getCellData on Obj: account_number
+Account_No : 1001006314
+Account Created Successfully: 1001006314
+------Account Creation Event Details - Completed------
+------Address Creation Event Details------
+Batch1 :: Action at Obj: Address - is Visible
+Final visible status is Address >>>>> true
+Batch1 :: Action Click on Obj: Address
+No Alert Exist
+Batch1 :: Action at Obj: Address_list - is Visible
+Final visible status is Address_list >>>>> true
+Batch1 :: Action Click on Obj: Address_list
+Final visible status is address_search >>>>> true
+Final visible status is account_number >>>>> true
+Batch1 :: Action Click on Obj: account_number
+Final visible status is account_number >>>>> true
+Batch1 :: Action SetData on Obj: account_number
+Entering Identification Number to Get the Account:1001006314
+Final visible status is account_number >>>>> true
+Batch1 :: Action Click on Obj: account_number
+Final visible status is address_listbox >>>>> true
+Batch1 :: Action Click on Obj: address_listbox
+Final visible status is address_button >>>>> true
+Batch1 :: Action Click on Obj: address_button
+Final visible status is address_new >>>>> true
+Batch1 :: Action Click on Obj: address_new
+Final visible status is Bat_add_address_button >>>>> true
+Batch1 :: Action Click on Obj: Bat_add_address_button
+Clicking on New Address button
+Final visible status is Bat_add_address_table >>>>> true
+Batch1 :: Action SetData on Obj: Bat_add_address_table
+Final visible status is Bat_add_address_Go >>>>> true
+Batch1 :: Action Click on Obj: Bat_add_address_Go
+Final visible status is Bat_add_address_ok >>>>> true
+Batch1 :: Action Click on Obj: Bat_add_address_ok
+Clicking on Ok button
+Final visible status is Bat_address_table >>>>> true
+Batch1 :: Action Click on Obj: Bat_address_table
+Final visible status is Bat_address_table >>>>> true
+Batch1 :: Action Click on Obj: Bat_address_table
+Legal Flag Checked
+Batch1 :: Action at Obj: AddressMenu_Btn - is Visible
+Final visible status is AddressMenu_Btn >>>>> true
+Batch1 :: Action Click on Obj: AddressMenu_Btn
+Batch1 :: Action at Obj: SaveRecord - is Visible
+Final visible status is SaveRecord >>>>> true
+Batch1 :: Action Click on Obj: SaveRecord
+Address Created and Linked Successfully
+------Address Creation Event Details - Completed------
+------ServiceType Creation Event Details------
+Final visible status is BT_Account_Button >>>>> true
+Batch1 :: Action Click on Obj: BT_Account_Button
+Batch1 :: Action at Obj: BT_AccountsList_Tab - is Visible
+Final visible status is BT_AccountsList_Tab >>>>> true
+Batch1 :: Action Click on Obj: BT_AccountsList_Tab
+Final visible status is ServiceType_AccountSearch >>>>> true
+Final visible status is Account_search_table >>>>> true
+Batch1 :: Action SetData on Obj: Account_search_table
+Searching Account Using Identification Number for Service Type Selection: 2802142031
+Exception occurred *** org.openqa.selenium.UnhandledAlertException: Modal dialog present: Your session timed out because you were idle for too long.  Please log in again to resume.
+If you had a Siebel attachment open, your changes may have been lost.  Please save the file locally, close it, and reattach it to the appropriate record.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'MDLT054', ip: '192.168.46.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35143/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44c225e5-9d35-4008-9041-a4ea884b345e
+*** Element info: {Using=xpath, value=//div[@class='siebui-btn-grp-applet']//*[@title='Accounts:Go']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at Libraries.Common$1.apply(Common.java:109)
+	at Libraries.Common$1.apply(Common.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at Libraries.Common.ConditionalWait(Common.java:107)
+	at Libraries.Common.scroll(Common.java:301)
+	at Libraries.Keyword_SiebelCRM.BatelcoServiceTypeCreation(Keyword_SiebelCRM.java:810)
+	at Libraries.KeyWord.BatelcoServiceTypeCreation(KeyWord.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+Exception occurred *** org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@class='siebui-btn-grp-applet']//*[@title='Accounts:Go']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'MDLT054', ip: '192.168.46.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35143/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44c225e5-9d35-4008-9041-a4ea884b345e
+*** Element info: {Using=xpath, value=//div[@class='siebui-btn-grp-applet']//*[@title='Accounts:Go']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at Libraries.Method.Highlight(Method.java:1070)
+	at Libraries.Keyword_SiebelCRM.BatelcoServiceTypeCreation(Keyword_SiebelCRM.java:813)
+	at Libraries.KeyWord.BatelcoServiceTypeCreation(KeyWord.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+Exception occurred *** org.openqa.selenium.TimeoutException: Expected condition failed: waiting for Libraries.Common$1@75ebaf71 (tried for 100 second(s) with 100 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:315)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at Libraries.Common.ConditionalWait(Common.java:107)
+	at Libraries.Browser$WebButton.click(Browser.java:184)
+	at Libraries.Keyword_SiebelCRM.BatelcoServiceTypeCreation(Keyword_SiebelCRM.java:814)
+	at Libraries.KeyWord.BatelcoServiceTypeCreation(KeyWord.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@class='siebui-btn-grp-applet']//*[@title='Accounts:Go']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'MDLT054', ip: '192.168.46.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:35143/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44c225e5-9d35-4008-9041-a4ea884b345e
+*** Element info: {Using=xpath, value=//div[@class='siebui-btn-grp-applet']//*[@title='Accounts:Go']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at Libraries.Common$1.apply(Common.java:109)
+	at Libraries.Common$1.apply(Common.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 10 more
+
+------ServiceType Creation Event Details - Completed------

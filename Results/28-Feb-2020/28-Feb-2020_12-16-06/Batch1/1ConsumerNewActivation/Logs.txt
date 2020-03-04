@@ -1,0 +1,223 @@
+No of Keywords to be executed in ConsumerNewActivation:8
+------Siebel Login Event Details------
+Enviroment: Prod
+Project_Name: Batelco
+Url: http://10.6.5.175/ecommunications_oui/
+Browser Opened Successfully
+Final visible status is Login_User >>>>> true
+Batch1 :: Action SetText on Obj: Login_User - Value: MavericSiebel
+Final visible status is Login_Pswd >>>>> true
+Batch1 :: Action SetText on Obj: Login_Pswd - Value: dW1r*nW1e
+Opening Browser and navigating to the URL
+Login Successfully with user MavericSiebel
+------Siebel Login Event Details - Completed------
+------Contact Creation Event Details------
+Final visible status is Contacts >>>>> true
+Clicking on Contacts.
+Batch1 :: Action at Obj: MyContacts - is Visible
+Final visible status is MyContacts >>>>> true
+Final visible status is Add Contact:New >>>>> true
+ Creating New Contact
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Selecting Identification Type Passport
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering Identification Number 2802121636
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering the First Name.MavericzeK
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering the Last Name.AutoXIo
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Selecting Mr/MrsMr.
+Final visible status is Gender_bat >>>>> true
+Contact_Identification_Number : 2802121636
+Batch1 :: Action select on Obj: Nationality - Value: United Arab Emirates
+entered NationalityUnited Arab Emirates
+Final visible status is Date_Of_Birth >>>>> true
+Batch1 :: Action SetText on Obj: Date_Of_Birth - Value: 10/10/2000
+ Entering Date of Birth10/10/2000
+Final visible status is EmailAddress >>>>> true
+Batch1 :: Action SetText on Obj: EmailAddress - Value: karthikeyanm@maveric-systems.com
+Entered Email addresskarthikeyanm@maveric-systems.com
+Final visible status is IdentificationTypeExpiryDate >>>>> true
+Batch1 :: Action SetText on Obj: IdentificationTypeExpiryDate - Value: 5/31/2020
+Selecting Identification Type Expiry Date: 5/31/2020
+Batch1 :: Action select on Obj: Gender - Value: M
+Entered Gender: M
+Final visible status is MobileNo >>>>> true
+Batch1 :: Action SetText on Obj: MobileNo - Value: 97336442725
+Entered Mobile Number: 97336442725
+Batch1 :: Action at Obj: Lowrisk_btn - is Visible
+Final visible status is Lowrisk_btn >>>>> true
+Batch1 :: Action Click on Obj: Lowrisk_btn
+Batch1 :: Action at Obj: Lowrisk_searchbtn - is Visible
+Final visible status is Lowrisk_searchbtn >>>>> true
+Batch1 :: Action Click on Obj: Lowrisk_searchbtn
+Final visible status is Occupation_type >>>>> true
+Batch1 :: Action Click on Obj: Occupation_type
+Final visible status is Occupation_type >>>>> true
+Batch1 :: Action SetData on Obj: Occupation_type
+Batch1 :: Action at Obj: Occupation_okbtn - is Visible
+Final visible status is Occupation_okbtn >>>>> true
+Batch1 :: Action Click on Obj: Occupation_okbtn
+Batch1 :: Action at Obj: Bat_Contact_Menu - is Visible
+Final visible status is Bat_Contact_Menu >>>>> true
+Batch1 :: Action Click on Obj: Bat_Contact_Menu
+Batch1 :: Action at Obj: SaveRecord - is Visible
+ Save Contact
+Final visible status is SaveRecord >>>>> true
+Batch1 :: Action Click on Obj: SaveRecord
+Final visible status is Contacts >>>>> true
+Final visible status is MyContacts >>>>> true
+Batch1 :: Action Click on Obj: MyContacts
+Final visible status is Search_Contact_button >>>>> true
+Final visible status is Search_table >>>>> true
+Batch1 :: Action Click on Obj: Search_table
+Final visible status is Search_table >>>>> true
+Batch1 :: Action SetData on Obj: Search_table
+Dynamic Identification Number is : 2802121636
+Final visible status is Search_Contact_Go >>>>> false
+Final visible status is BT_Identification_Number >>>>> true
+Batch1 :: Action getCellData on Obj: BT_Identification_Number
+------Contact Creation Event Details - Completed------
+------Account Creation Event Details------
+Batch1 :: Action at Obj: Address - is Visible
+Final visible status is Address >>>>> true
+Batch1 :: Action at Obj: Address_list - is Visible
+Final visible status is Address_list >>>>> true
+Batch1 :: Action at Obj: New_Address - is Visible
+Final visible status is New_Address >>>>> true
+Batch1 :: Action Click on Obj: New_Address
+New Account Creation
+Final visible status is AccountIdentification_Type >>>>> true
+Batch1 :: Action Click on Obj: AccountIdentification_Type
+Final visible status is AccountIdentification_Type >>>>> true
+Batch1 :: Action SetText on Obj: AccountIdentification_Type - Value: Passport
+Account_Identification_Type : Passport
+Final visible status is account_number >>>>> true
+Batch1 :: Action SetDataE on Obj: account_number
+Entering Identification Number: 2802121636
+Final visible status is account_number >>>>> true
+Batch1 :: Action Click on Obj: account_number
+Final visible status is account_number >>>>> true
+Batch1 :: Action SetDataE on Obj: account_number
+ Entering Name: Maveric
+Final visible status is account_number >>>>> true
+Batch1 :: Action Click on Obj: account_number
+Final visible status is account_number >>>>> true
+Batch1 :: Action SetDataE on Obj: account_number
+Selecting Account Type: RESIDENTIAL - RES
+Final visible status is last_name >>>>> true
+Batch1 :: Action Click on Obj: last_name
+Final visible status is Contactlastname >>>>> true
+Batch1 :: Action Click on Obj: Contactlastname
+Final visible status is New_Query >>>>> true
+Batch1 :: Action Click on Obj: New_Query
+Final visible status is AddcontactQuery >>>>> true
+Batch1 :: Action Click on Obj: AddcontactQuery
+Final visible status is Idtype_seelction >>>>> true
+Batch1 :: Action SetData on Obj: Idtype_seelction
+Entering Identification Number in Account to Link a Contact:2802121636
+Final visible status is Mvg_Addcontact_go >>>>> true
+Batch1 :: Action Click on Obj: Mvg_Addcontact_go
+Final visible status is Contactmg_add >>>>> true
+Batch1 :: Action Click on Obj: Contactmg_add
+Adding Contact to Account
+Final visible status is Batcontactok >>>>> true
+Batch1 :: Action at Obj: Account_Menu - is Visible
+Final visible status is Account_Menu >>>>> true
+Batch1 :: Action Click on Obj: Account_Menu
+Batch1 :: Action at Obj: SaveRecord - is Visible
+Final visible status is SaveRecord >>>>> true
+Batch1 :: Action Click on Obj: SaveRecord
+The selected record has been modified by another user since it was retrieved.  Please continue.(SBL-DAT-00523)(SBL-EXL-00151)
+Final visible status is account_number >>>>> true
+Final visible status is account_number >>>>> true
+Batch1 :: Action getCellData on Obj: account_number
+Final visible status is account_number >>>>> true
+Batch1 :: Action getCellData on Obj: account_number
+Account_No : 1001006313
+Account Created Successfully: 1001006313
+------Account Creation Event Details - Completed------
+------Address Creation Event Details------
+Batch1 :: Action at Obj: Address - is Visible
+Final visible status is Address >>>>> true
+Batch1 :: Action Click on Obj: Address
+No Alert Exist
+Batch1 :: Action at Obj: Address_list - is Visible
+Final visible status is Address_list >>>>> true
+Batch1 :: Action Click on Obj: Address_list
+Final visible status is address_search >>>>> true
+Final visible status is account_number >>>>> true
+Batch1 :: Action Click on Obj: account_number
+Final visible status is account_number >>>>> true
+Batch1 :: Action SetData on Obj: account_number
+Entering Identification Number to Get the Account:1001006313
+Final visible status is account_number >>>>> true
+Batch1 :: Action Click on Obj: account_number
+Final visible status is address_listbox >>>>> true
+Batch1 :: Action Click on Obj: address_listbox
+Final visible status is address_button >>>>> true
+Batch1 :: Action Click on Obj: address_button
+Final visible status is address_new >>>>> true
+Batch1 :: Action Click on Obj: address_new
+Final visible status is Bat_add_address_button >>>>> true
+Batch1 :: Action Click on Obj: Bat_add_address_button
+Clicking on New Address button
+Final visible status is Bat_add_address_table >>>>> true
+Batch1 :: Action SetData on Obj: Bat_add_address_table
+Final visible status is Bat_add_address_Go >>>>> true
+Batch1 :: Action Click on Obj: Bat_add_address_Go
+Final visible status is Bat_add_address_ok >>>>> true
+Batch1 :: Action Click on Obj: Bat_add_address_ok
+Clicking on Ok button
+Final visible status is Bat_address_table >>>>> true
+Batch1 :: Action Click on Obj: Bat_address_table
+Final visible status is Bat_address_table >>>>> true
+Batch1 :: Action Click on Obj: Bat_address_table
+Legal Flag Checked
+Batch1 :: Action at Obj: AddressMenu_Btn - is Visible
+Final visible status is AddressMenu_Btn >>>>> true
+Batch1 :: Action Click on Obj: AddressMenu_Btn
+Batch1 :: Action at Obj: SaveRecord - is Visible
+Final visible status is SaveRecord >>>>> true
+Batch1 :: Action Click on Obj: SaveRecord
+Address Created and Linked Successfully
+------Address Creation Event Details - Completed------
+------ServiceType Creation Event Details------
+Final visible status is BT_Account_Button >>>>> true
+Batch1 :: Action Click on Obj: BT_Account_Button
+Batch1 :: Action at Obj: BT_AccountsList_Tab - is Visible
+Final visible status is BT_AccountsList_Tab >>>>> true
+Batch1 :: Action Click on Obj: BT_AccountsList_Tab
+Final visible status is ServiceType_AccountSearch >>>>> true
+Final visible status is Account_search_table >>>>> true
+Batch1 :: Action SetData on Obj: Account_search_table
+Searching Account Using Identification Number for Service Type Selection: 2802121636
+Final visible status is ServiceType_AccountGo >>>>> false
+Final visible status is ServiceType_AccountGo >>>>> true
+Batch1 :: Action Click on Obj: ServiceType_AccountGo
+Final visible status is Account_search_table >>>>> true
+Batch1 :: Action Click on Obj: Account_search_table
+Final visible status is ServiceType_IdentificationTypeExpiryDate >>>>> true
+Batch1 :: Action SetText on Obj: ServiceType_IdentificationTypeExpiryDate - Value: 5/31/2020
+Entering Identification Number: 5/31/2020
+Final visible status is ServiceType_Bypassing >>>>> true
+Object does't Exists to set
+Batch1 :: Failed at Obj: ServiceType_Bypassing - to set Value: Disabled
+Exception occurred *** java.lang.Exception
+	at Libraries.Browser$WebEdit.Set(Browser.java:53)
+	at Libraries.Keyword_SiebelCRM.BatelcoServiceTypeCreation(Keyword_SiebelCRM.java:837)
+	at Libraries.KeyWord.BatelcoServiceTypeCreation(KeyWord.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+------ServiceType Creation Event Details - Completed------

@@ -1,0 +1,28 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cmu="http://www.siebel.com/xml/CMU%20Request%20Billing%20Profile%20IO">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cmu:ListOfCmuRequestBillingProfileIo Language="?" Locale="?" MessageId="?" EnterpriseServerName="?">
+         <!--Zero or more repetitions:-->
+         <cmu:ComInvoiceProfile>
+            <!--Optional:-->
+            <cmu:ChannelID></cmu:ChannelID>
+            <cmu:AccountId>97478152357</cmu:AccountId>
+            <!--Optional:-->
+            <cmu:AccountName></cmu:AccountName>
+            <!--Optional:-->
+            <cmu:MaximumNumberOfRecords></cmu:MaximumNumberOfRecords>
+            <cmu:CurrencyCode>QAR</cmu:CurrencyCode>
+            <cmu:BillingProfileName>test</cmu:BillingProfileName>
+            <!--Optional:-->
+            <cmu:BillingProfileId>test</cmu:BillingProfileId>
+            <cmu:ServiceAccountId></cmu:ServiceAccountId>
+            <cmu:AccountNumber></cmu:AccountNumber>
+            <cmu:BalanceRequested></cmu:BalanceRequested>
+            <cmu:BalanceCategory></cmu:BalanceCategory>
+            <cmu:SearchType>6</cmu:SearchType>
+            <!--Optional:-->
+            <cmu:QueryMSISDN></cmu:QueryMSISDN>
+         </cmu:ComInvoiceProfile>
+      </cmu:ListOfCmuRequestBillingProfileIo>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,6 @@
+No of Keywords to be executed in ConsumerNewActivation:8
+------Siebel Login Event Details------
+Enviroment: Prod
+Project_Name: Batelco
+Url: http://10.6.5.175/ecommunications_oui/
+Browser Opened Successfully

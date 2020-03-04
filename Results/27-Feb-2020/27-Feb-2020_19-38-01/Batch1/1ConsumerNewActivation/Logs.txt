@@ -1,0 +1,115 @@
+No of Keywords to be executed in ConsumerNewActivation:8
+------Siebel Login Event Details------
+Enviroment: Prod
+Project_Name: Batelco
+Url: http://10.6.5.175/ecommunications_oui/
+Browser Opened Successfully
+Final visible status is Login_User >>>>> true
+Batch1 :: Action SetText on Obj: Login_User - Value: MavericSiebel
+Final visible status is Login_Pswd >>>>> true
+Batch1 :: Action SetText on Obj: Login_Pswd - Value: dW1r*nW1e
+Opening Browser and navigating to the URL
+Login Successfully with user MavericSiebel
+------Siebel Login Event Details - Completed------
+------Contact Creation Event Details------
+Final visible status is Contacts >>>>> true
+Clicking on Contacts.
+Batch1 :: Action at Obj: MyContacts - is Visible
+Final visible status is MyContacts >>>>> true
+Final visible status is Add Contact:New >>>>> true
+ Creating New Contact
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Selecting Identification Type Passport
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering Identification Number 2702193825
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering the First Name.MavericnBK
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering the Last Name.AutoeSx
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Selecting Mr/MrsMr.
+Final visible status is Gender_bat >>>>> true
+Contact_Identification_Number : 2702193825
+Batch1 :: Action select on Obj: Nationality - Value: United Arab Emirates
+entered NationalityUnited Arab Emirates
+Final visible status is Date_Of_Birth >>>>> true
+Batch1 :: Action SetText on Obj: Date_Of_Birth - Value: 10/10/2000
+ Entering Date of Birth10/10/2000
+Final visible status is EmailAddress >>>>> true
+Batch1 :: Action SetText on Obj: EmailAddress - Value: karthikeyanm@maveric-systems.com
+Entered Email addresskarthikeyanm@maveric-systems.com
+Final visible status is IdentificationTypeExpiryDate >>>>> true
+Batch1 :: Action SetText on Obj: IdentificationTypeExpiryDate - Value: 5/31/2020
+Selecting Identification Type Expiry Date: 5/31/2020
+Batch1 :: Action select on Obj: Gender - Value: M
+Entered Gender: M
+Final visible status is MobileNo >>>>> true
+Batch1 :: Action SetText on Obj: MobileNo - Value: 97336442725
+Entered Mobile Number: 97336442725
+Batch1 :: Action at Obj: Lowrisk_btn - is Visible
+Final visible status is Lowrisk_btn >>>>> true
+Batch1 :: Action Click on Obj: Lowrisk_btn
+Batch1 :: Action at Obj: Lowrisk_searchbtn - is Visible
+Final visible status is Lowrisk_searchbtn >>>>> true
+Batch1 :: Action Click on Obj: Lowrisk_searchbtn
+Final visible status is Occupation_type >>>>> true
+Batch1 :: Action Click on Obj: Occupation_type
+Final visible status is Occupation_type >>>>> true
+Batch1 :: Action SetData on Obj: Occupation_type
+Batch1 :: Action at Obj: Occupation_okbtn - is Visible
+Final visible status is Occupation_okbtn >>>>> true
+Batch1 :: Action Click on Obj: Occupation_okbtn
+Batch1 :: Action at Obj: Bat_Contact_Menu - is Visible
+Final visible status is Bat_Contact_Menu >>>>> true
+Batch1 :: Action Click on Obj: Bat_Contact_Menu
+Exception occurred *** org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == (//a[contains(text(),'Save Record')])[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'MDLT054', ip: '192.168.46.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21255/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 99e178dc-a9b6-46cd-96b1-004a7e0fbae1
+*** Element info: {Using=xpath, value=(//a[contains(text(),'Save Record')])[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at Libraries.Method.Highlight(Method.java:1070)
+	at Libraries.Keyword_SiebelCRM.BatelcoContactCreation(Keyword_SiebelCRM.java:345)
+	at Libraries.KeyWord.BatelcoContactCreation(KeyWord.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+Object does't Visible
+Batch1 :: Failed at Obj: SaveRecord - is not Visible
+Exception occurred *** java.lang.Exception
+	at Libraries.Browser$WebLink.waittillvisible(Browser.java:271)
+	at Libraries.Keyword_SiebelCRM.BatelcoContactCreation(Keyword_SiebelCRM.java:346)
+	at Libraries.KeyWord.BatelcoContactCreation(KeyWord.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+------Contact Creation Event Details - Completed------

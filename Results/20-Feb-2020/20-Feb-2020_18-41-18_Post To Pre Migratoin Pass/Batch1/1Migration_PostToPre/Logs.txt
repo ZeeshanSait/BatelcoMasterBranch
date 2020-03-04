@@ -1,0 +1,160 @@
+No of Keywords to be executed in Migration_PostToPre:3
+------Siebel Login Event Details------
+Enviroment: Prod
+Project_Name: Batelco
+Url: http://10.6.5.175/ecommunications_oui/
+Browser Opened Successfully
+Final visible status is Login_User >>>>> true
+Batch1 :: Action SetText on Obj: Login_User - Value: MavericSiebel
+Final visible status is Login_Pswd >>>>> true
+Batch1 :: Action SetText on Obj: Login_Pswd - Value: dW1r*nW1e
+Opening Browser and navigating to the URL
+Login Successfully with user MavericSiebel
+------Siebel Login Event Details - Completed------
+------Siebel PostToPreMigration Event Details------
+Final visible status is BT_Account_Button >>>>> true
+Clicked On Accounts Tab
+Final visible status is Identification_Number >>>>> true
+Batch1 :: Action SetText on Obj: Identification_Number - Value: 2002181719
+Entering Identification Number to Get the Account: 2002181719
+Final visible status is Search_Go >>>>> true
+Batch1 :: Action Click on Obj: Search_Go
+Clicked On Search Go
+Final visible status is Account_search_table >>>>> true
+Batch1 :: Action Click on Obj: Account_search_table
+Entering into the Account
+Final visible status is Account_Number >>>>> true
+Final visible status is account_number >>>>> true
+Batch1 :: Action getCellData on Obj: account_number
+Account_No :  
+Final visible status is Account_Number >>>>> true
+Final visible status is AccountHolder_Name >>>>> true
+Account Number: 1001006291 and Name: Maveric
+Final visible status is Accounts_ChangePromotion >>>>> true
+Installed Assets
+Clicked On Change Promotion
+Final visible status is Accounts_ChangePromotion >>>>> true
+Batch1 :: Action Click on Obj: Accounts_ChangePromotion
+Final visible status is OrderJourney >>>>> true
+Batch1 :: Action SetText on Obj: OrderJourney - Value: Downgrade
+Entered Downgrade as Order Journey Reason
+Final visible status is OrderReason >>>>> true
+Batch1 :: Action SetText on Obj: OrderReason - Value: Post to Pre Migration
+Entered Post to Pre as Order Reason 
+Final visible status is ServiceType_Ok >>>>> true
+Clicked On Ok button
+Final visible status is PromationUpgrade_GO_btn >>>>> true
+Batch1 :: Action Click on Obj: PromationUpgrade_GO_btn
+Final visible status is UpgradeOk >>>>> true
+Clicked On Downgrade
+Final visible status is Productselection_table >>>>> true
+Batch1 :: Action Click on Obj: Productselection_table
+Clicked On Change Package Expand Tree Icon
+Final visible status is Productselection_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Productselection_table
+Entered SIM Number8999999200027860059
+Final visible status is OrderMenu_Btn >>>>> true
+Batch1 :: Action at Obj: OrderMenu_Btn - is Visible
+Final visible status is OrderMenu_Btn >>>>> true
+Batch1 :: Action Click on Obj: OrderMenu_Btn
+Batch1 :: Action at Obj: SaveRecord - is Visible
+Final visible status is SaveRecord >>>>> true
+Batch1 :: Action Click on Obj: SaveRecord
+Clicked On Save Record
+------Order Payment Event Details------
+Final visible status is order_numfetch >>>>> true
+Final visible status is order_numfetch >>>>> true
+Final visible status is Order_Total >>>>> true
+Final visible status is Payments >>>>> true
+Batch1 :: Action at Obj: Payments - is Visible
+Final visible status is Payments >>>>> true
+Batch1 :: Action Click on Obj: Payments
+Final visible status is Payment Lines:New >>>>> true
+Batch1 :: Action Click on Obj: Payment Lines:New
+Clicking on Create Payment
+No Alert Exist
+Final visible status is PaymentsTable >>>>> true
+Batch1 :: Action getCellData on Obj: PaymentsTable
+Final visible status is MakePaymentBtn >>>>> true
+Batch1 :: Action Click on Obj: MakePaymentBtn
+Entered in --- Prod
+connected to DB
+Order Number : 20020000321
+select row_id from siebel.s_order where order_num = '20020000321'
+Order ID : 1-1EP9L6H1
+Select PAY.ROW_ID,PAY.CREATED,PAY.PAY_STAT_CD,PAY.PAY_TYPE_CD,PAY.PAY_AMT From siebel.S_SRC_PAYMENT PAY Where PAY.ORDER_ID = '1-1EP9L6H1'
+  ********** Waiting Time is 2 Minutes  **********   SOAP API CALL COMPLETED *********** 
+Final visible status is PaymentsTable >>>>> true
+Batch1 :: Action getCellData on Obj: PaymentsTable
+ After Payment:Paid
+Final visible status is SavePayment_Btn >>>>> true
+Batch1 :: Action Click on Obj: SavePayment_Btn
+Batch1 :: Action at Obj: Payment_saverecord - is Visible
+Final visible status is Payment_saverecord >>>>> true
+Batch1 :: Action Click on Obj: Payment_saverecord
+Clicked On Save Record
+Order Payment is Successfully completed 
+------Order Payment Event Details - Completed------
+Final visible status is Validate >>>>> true
+Batch1 :: Action Click on Obj: Validate
+Clicked On Validate
+Final visible status is SignatureCapture_Btn >>>>> true
+Batch1 :: Action at Obj: SignatureCapture_Btn - is Visible
+Final visible status is SignatureCapture_Btn >>>>> true
+Batch1 :: Action Click on Obj: SignatureCapture_Btn
+No Alert Exist
+Batch1 :: Action at Obj: signatureSave - is Visible
+Final visible status is signatureSave >>>>> true
+Batch1 :: Action Click on Obj: signatureSave
+No Alert Exist
+Final visible status is DrafteForm_Btn >>>>> true
+Signature Captured
+Final visible status is DrafteForm_Btn >>>>> true
+Batch1 :: Action Click on Obj: DrafteForm_Btn
+Clicked On DrafteForm
+No Alert Exist
+Final visible status is SubmitBtn >>>>> true
+Final visible status is SubmitBtn >>>>> true
+Batch1 :: Action Click on Obj: SubmitBtn
+No Alert Exist
+Final visible status is SubmitBtn >>>>> true
+Batch1 :: Action Click on Obj: SubmitBtn
+No Alert Exist
+Final visible status is Line_Items >>>>> true
+Final visible status is Line_Items >>>>> true
+Final visible status is SettingsButton >>>>> true
+Final visible status is SettingsButton >>>>> true
+Batch1 :: Action Click on Obj: SettingsButton
+Final visible status is RunQuery >>>>> true
+Batch1 :: Action Click on Obj: RunQuery
+Final visible status is OrderStatus >>>>> true
+ORDER TIME  Order Completion Time:  1 minutes, 23 seconds.
+Final visible status is Line_Items >>>>> true
+Final visible status is Line_Items >>>>> true
+Batch1 :: Action Click on Obj: Line_Items
+Final visible status is OrderExpandTreeIcon >>>>> true
+Batch1 :: Action Click on Obj: OrderExpandTreeIcon
+Newly Installed Assets after Order Submission
+Final visible status is Acc_Summarybtn >>>>> true
+After Refreshing the Browser Order Status: Complete  and Order Completion Time:  1 minutes, 23 seconds.
+Final visible status is Acc_Summarybtn >>>>> true
+Batch1 :: Action Click on Obj: Acc_Summarybtn
+ Clicking on Account Summary button
+Final visible status is Accout_Status_Indicator >>>>> true
+Account Summary Detail
+Final visible status is Modify_button >>>>> true
+Installed Asset Detail
+BatelcoPostToPreMigration Successful
+PostToPreMigration Event is Passed for Account Number: 1001006291 and  Order: 20020000321 is submitted Successfully and New Prepaid Number 8999999200027860059 Updated Successfully and Order Payment is Successfully completed :  Complete  and Order Completion Time:  1 minutes, 23 seconds.
+------Siebel PostToPreMigration Event Details - Completed------
+------Siebel Logout Event Details------
+Batch1 :: Action at Obj: Settings_Tab - is Visible
+Final visible status is Settings_Tab >>>>> true
+Batch1 :: Action Click on Obj: Settings_Tab
+Clicking on Settings Tab
+Batch1 :: Action at Obj: Logout_Button - is Visible
+Final visible status is Logout_Button >>>>> true
+Batch1 :: Action Click on Obj: Logout_Button
+Clicking on Logout Button
+Logout Successful
+------Siebel Logout Event Details - Completed------

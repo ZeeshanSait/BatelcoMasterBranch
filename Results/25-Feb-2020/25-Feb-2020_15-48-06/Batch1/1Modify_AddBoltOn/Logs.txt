@@ -1,0 +1,199 @@
+No of Keywords to be executed in Modify_AddBoltOn:3
+------Siebel Login Event Details------
+Enviroment: Prod
+Project_Name: Batelco
+Url: http://10.6.5.175/ecommunications_oui/
+Browser Opened Successfully
+Final visible status is Login_User >>>>> true
+Batch1 :: Action SetText on Obj: Login_User - Value: MavericSiebel
+Final visible status is Login_Pswd >>>>> true
+Batch1 :: Action SetText on Obj: Login_Pswd - Value: dW1r*nW1e
+Opening Browser and navigating to the URL
+Login Successfully with user MavericSiebel
+------Siebel Login Event Details - Completed------
+------ Modify Service Creation Event Details------
+Final visible status is BT_Account_Button >>>>> true
+Clicked On Accounts Tab
+Final visible status is Identification_Number >>>>> true
+Batch1 :: Action SetText on Obj: Identification_Number - Value: 2102113126
+Entering Identification Number to Get the Account: 2102113126
+Final visible status is Search_Go >>>>> true
+Batch1 :: Action Click on Obj: Search_Go
+Clicked On Search Go
+Final visible status is Account_search_table >>>>> true
+Batch1 :: Action Click on Obj: Account_search_table
+Entering into the Account
+Final visible status is Accout_Status_Indicator >>>>> true
+Final visible status is Account_Number >>>>> true
+Account_No : 1001006295
+Final visible status is AccountHolder_Name >>>>> true
+Final visible status is Accout_Status_Indicator >>>>> true
+Account Number: 1001006295 and Name: Maveric
+Final visible status is Modify_button >>>>> true
+Installed Assets 
+Final visible status is Modify_button >>>>> true
+Batch1 :: Action Click on Obj: Modify_button
+Final visible status is orderreason_modify >>>>> true
+Batch1 :: Action SetText on Obj: orderreason_modify - Value: Modify Service
+Selecting Order Reason: Modify Service
+Final visible status is ServiceType_Ok >>>>> true
+No Alert Exist
+Final visible status is Modify_expandbtn >>>>> true
+Batch1 :: Action Click on Obj: Modify_expandbtn
+Final visible status is Modify_customizebtn >>>>> true
+Batch1 :: Action Click on Obj: Modify_customizebtn
+ ***********   Package Name : Family Bolton*****    #####   selected Products are : ##### Wearable bolton
+Exception occurred *** java.lang.NullPointerException
+	at Libraries.Common$1.apply(Common.java:109)
+	at Libraries.Common$1.apply(Common.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at Libraries.Common.ConditionalWait(Common.java:107)
+	at Libraries.Common.scroll(Common.java:301)
+	at Libraries.Keyword_SiebelCRM.Batelco_ModifyService(Keyword_SiebelCRM.java:2457)
+	at Libraries.KeyWord.Batelco_ModifyService(KeyWord.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+Exception occurred *** java.lang.NullPointerException
+	at Libraries.Common$1.apply(Common.java:109)
+	at Libraries.Common$1.apply(Common.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at Libraries.Common.ConditionalWait(Common.java:107)
+	at Libraries.Common.JavaScriptClick(Common.java:76)
+	at Libraries.Keyword_SiebelCRM.Batelco_ModifyService(Keyword_SiebelCRM.java:2460)
+	at Libraries.KeyWord.Batelco_ModifyService(KeyWord.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+Clicking on Family Bolton Package
+Exception occurred *** org.openqa.selenium.TimeoutException: Expected condition failed: waiting for Libraries.Common$1@7629a2f6 (tried for 100 second(s) with 100 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:315)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at Libraries.Common.ConditionalWait(Common.java:107)
+	at Libraries.Common.scroll(Common.java:301)
+	at Libraries.Keyword_SiebelCRM.Batelco_ModifyService(Keyword_SiebelCRM.java:2473)
+	at Libraries.KeyWord.Batelco_ModifyService(KeyWord.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //input[@value='Wearable bolton']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'MDLT054', ip: '192.168.46.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:4938/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 22387d51-20e3-40de-938d-cb21d6b2dacc
+*** Element info: {Using=xpath, value=//input[@value='Wearable bolton']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at Libraries.Common$1.apply(Common.java:109)
+	at Libraries.Common$1.apply(Common.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 10 more
+
+Final visible status is Wearable bolton >>>>> true
+Wearable bolton Selected 
+ ***********   Package Name : MonthlyCharges_RoamingValue*****    #####   selected Products are : ##### 1
+Exception occurred *** java.lang.NullPointerException
+	at Libraries.Common$1.apply(Common.java:109)
+	at Libraries.Common$1.apply(Common.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at Libraries.Common.ConditionalWait(Common.java:107)
+	at Libraries.Common.scroll(Common.java:301)
+	at Libraries.Keyword_SiebelCRM.Batelco_ModifyService(Keyword_SiebelCRM.java:2457)
+	at Libraries.KeyWord.Batelco_ModifyService(KeyWord.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+Exception occurred *** java.lang.NullPointerException
+	at Libraries.Common$1.apply(Common.java:109)
+	at Libraries.Common$1.apply(Common.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at Libraries.Common.ConditionalWait(Common.java:107)
+	at Libraries.Common.JavaScriptClick(Common.java:76)
+	at Libraries.Keyword_SiebelCRM.Batelco_ModifyService(Keyword_SiebelCRM.java:2460)
+	at Libraries.KeyWord.Batelco_ModifyService(KeyWord.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+Clicking on MonthlyCharges_RoamingValue Package
+Exception occurred *** java.lang.NullPointerException
+	at Libraries.Common$1.apply(Common.java:109)
+	at Libraries.Common$1.apply(Common.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at Libraries.Common.ConditionalWait(Common.java:107)
+	at Libraries.Common.scroll(Common.java:301)
+	at Libraries.Keyword_SiebelCRM.Batelco_ModifyService(Keyword_SiebelCRM.java:2473)
+	at Libraries.KeyWord.Batelco_ModifyService(KeyWord.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+Exception occurred *** java.lang.NullPointerException
+	at Libraries.Common$1.apply(Common.java:109)
+	at Libraries.Common$1.apply(Common.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at Libraries.Common.ConditionalWait(Common.java:107)
+	at Libraries.Common.JavaScriptClick(Common.java:76)
+	at Libraries.Keyword_SiebelCRM.Batelco_ModifyService(Keyword_SiebelCRM.java:2476)
+	at Libraries.KeyWord.Batelco_ModifyService(KeyWord.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+1 Selected 
+No Alert Exist
+Final visible status is modify_done >>>>> true
+Clicking on Done button.
+Final visible status is modify_done >>>>> true
+Final visible status is Validate >>>>> true
+Batch1 :: Failed at Obj: Validate to click
+Exception occurred *** java.lang.Exception
+	at Libraries.Browser$WebButton.click(Browser.java:191)
+	at Libraries.Keyword_SiebelCRM.Batelco_ModifyService(Keyword_SiebelCRM.java:2500)
+	at Libraries.KeyWord.Batelco_ModifyService(KeyWord.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at Libraries.Driver.ExecuteCases(Driver.java:293)
+	at Libraries.Driver.main(Driver.java:162)
+
+------ Modify Event Details - Completed------

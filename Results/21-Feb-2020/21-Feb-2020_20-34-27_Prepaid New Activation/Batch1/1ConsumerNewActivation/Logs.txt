@@ -1,0 +1,331 @@
+No of Keywords to be executed in ConsumerNewActivation:8
+------Siebel Login Event Details------
+Enviroment: Prod
+Project_Name: Batelco
+Url: http://10.6.5.175/ecommunications_oui/
+Browser Opened Successfully
+Final visible status is Login_User >>>>> true
+Batch1 :: Action SetText on Obj: Login_User - Value: MavericSiebel
+Final visible status is Login_Pswd >>>>> true
+Batch1 :: Action SetText on Obj: Login_Pswd - Value: dW1r*nW1e
+Opening Browser and navigating to the URL
+Login Successfully with user MavericSiebel
+------Siebel Login Event Details - Completed------
+------Contact Creation Event Details------
+Final visible status is Contacts >>>>> true
+Clicking on Contacts.
+Batch1 :: Action at Obj: MyContacts - is Visible
+Final visible status is MyContacts >>>>> true
+Final visible status is Add Contact:New >>>>> true
+ Creating New Contact
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Selecting Identification Type Passport
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering Identification Number 2102203456
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering the First Name.MavericjQE
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Entering the Last Name.AutorAT
+Final visible status is Contact_table >>>>> true
+Batch1 :: Action SetDataE on Obj: Contact_table
+Selecting Mr/MrsMr.
+Final visible status is Gender_bat >>>>> true
+Contact_Identification_Number : 2102203456
+Batch1 :: Action select on Obj: Nationality - Value: United Arab Emirates
+entered NationalityUnited Arab Emirates
+Final visible status is Date_Of_Birth >>>>> true
+Batch1 :: Action SetText on Obj: Date_Of_Birth - Value: 10/10/2000
+ Entering Date of Birth10/10/2000
+Final visible status is EmailAddress >>>>> true
+Batch1 :: Action SetText on Obj: EmailAddress - Value: karthikeyanm@maveric-systems.com
+Entered Email addresskarthikeyanm@maveric-systems.com
+Final visible status is IdentificationTypeExpiryDate >>>>> true
+Batch1 :: Action SetText on Obj: IdentificationTypeExpiryDate - Value: 5/31/2020
+Selecting Identification Type Expiry Date: 5/31/2020
+Batch1 :: Action select on Obj: Gender - Value: M
+Entered Gender: M
+Final visible status is MobileNo >>>>> true
+Batch1 :: Action SetText on Obj: MobileNo - Value: 97336442725
+Entered Mobile Number: 97336442725
+Batch1 :: Action at Obj: Lowrisk_btn - is Visible
+Final visible status is Lowrisk_btn >>>>> true
+Batch1 :: Action Click on Obj: Lowrisk_btn
+Batch1 :: Action at Obj: Lowrisk_searchbtn - is Visible
+Final visible status is Lowrisk_searchbtn >>>>> true
+Batch1 :: Action Click on Obj: Lowrisk_searchbtn
+Final visible status is Occupation_type >>>>> true
+Batch1 :: Action Click on Obj: Occupation_type
+Final visible status is Occupation_type >>>>> true
+Batch1 :: Action SetData on Obj: Occupation_type
+Batch1 :: Action at Obj: Occupation_okbtn - is Visible
+Final visible status is Occupation_okbtn >>>>> true
+Batch1 :: Action Click on Obj: Occupation_okbtn
+Batch1 :: Action at Obj: Bat_Contact_Menu - is Visible
+Final visible status is Bat_Contact_Menu >>>>> true
+Batch1 :: Action Click on Obj: Bat_Contact_Menu
+Batch1 :: Action at Obj: SaveRecord - is Visible
+ Save Contact
+Final visible status is SaveRecord >>>>> true
+Batch1 :: Action Click on Obj: SaveRecord
+Final visible status is Contacts >>>>> true
+Final visible status is MyContacts >>>>> true
+Batch1 :: Action Click on Obj: MyContacts
+Final visible status is Search_Contact_button >>>>> true
+Final visible status is Search_table >>>>> true
+Batch1 :: Action Click on Obj: Search_table
+Final visible status is Search_table >>>>> true
+Batch1 :: Action SetData on Obj: Search_table
+Dynamic Identification Number is : 2102203456
+Final visible status is Search_Contact_Go >>>>> false
+Final visible status is BT_Identification_Number >>>>> true
+Batch1 :: Action getCellData on Obj: BT_Identification_Number
+------Contact Creation Event Details - Completed------
+------Account Creation Event Details------
+Batch1 :: Action at Obj: Address - is Visible
+Final visible status is Address >>>>> true
+Batch1 :: Action at Obj: Address_list - is Visible
+Final visible status is Address_list >>>>> true
+Batch1 :: Action at Obj: New_Address - is Visible
+Final visible status is New_Address >>>>> true
+Batch1 :: Action Click on Obj: New_Address
+New Account Creation
+Final visible status is AccountIdentification_Type >>>>> true
+Batch1 :: Action Click on Obj: AccountIdentification_Type
+Final visible status is AccountIdentification_Type >>>>> true
+Batch1 :: Action SetText on Obj: AccountIdentification_Type - Value: Passport
+Account_Identification_Type : Passport
+Final visible status is account_number >>>>> true
+Batch1 :: Action SetDataE on Obj: account_number
+Entering Identification Number: 2102203456
+Final visible status is account_number >>>>> true
+Batch1 :: Action Click on Obj: account_number
+Final visible status is account_number >>>>> true
+Batch1 :: Action SetDataE on Obj: account_number
+ Entering Name: Maveric
+Final visible status is account_number >>>>> true
+Batch1 :: Action Click on Obj: account_number
+Final visible status is account_number >>>>> true
+Batch1 :: Action SetDataE on Obj: account_number
+Selecting Account Type: RESIDENTIAL - RES
+Final visible status is last_name >>>>> true
+Batch1 :: Action Click on Obj: last_name
+Final visible status is Contactlastname >>>>> true
+Batch1 :: Action Click on Obj: Contactlastname
+Final visible status is New_Query >>>>> true
+Batch1 :: Action Click on Obj: New_Query
+Final visible status is AddcontactQuery >>>>> true
+Batch1 :: Action Click on Obj: AddcontactQuery
+Final visible status is Idtype_seelction >>>>> true
+Batch1 :: Action SetData on Obj: Idtype_seelction
+Entering Identification Number in Account to Link a Contact:2102203456
+Final visible status is Mvg_Addcontact_go >>>>> true
+Batch1 :: Action Click on Obj: Mvg_Addcontact_go
+Final visible status is Contactmg_add >>>>> true
+Batch1 :: Action Click on Obj: Contactmg_add
+Adding Contact to Account
+Final visible status is Batcontactok >>>>> true
+Batch1 :: Action at Obj: Account_Menu - is Visible
+Final visible status is Account_Menu >>>>> true
+Batch1 :: Action Click on Obj: Account_Menu
+Batch1 :: Action at Obj: SaveRecord - is Visible
+Final visible status is SaveRecord >>>>> true
+Batch1 :: Action Click on Obj: SaveRecord
+The selected record has been modified by another user since it was retrieved.  Please continue.(SBL-DAT-00523)(SBL-EXL-00151)
+Final visible status is account_number >>>>> true
+Final visible status is account_number >>>>> true
+Batch1 :: Action getCellData on Obj: account_number
+Final visible status is account_number >>>>> true
+Batch1 :: Action getCellData on Obj: account_number
+Account_No : 1001006303
+Account Created Successfully: 1001006303
+------Account Creation Event Details - Completed------
+------Address Creation Event Details------
+Address Created and Linked Successfully
+------Address Creation Event Details - Completed------
+------ServiceType Creation Event Details------
+Final visible status is BT_Account_Button >>>>> true
+Batch1 :: Action Click on Obj: BT_Account_Button
+Batch1 :: Action at Obj: BT_AccountsList_Tab - is Visible
+Final visible status is BT_AccountsList_Tab >>>>> true
+Batch1 :: Action Click on Obj: BT_AccountsList_Tab
+Final visible status is ServiceType_AccountSearch >>>>> true
+Final visible status is Account_search_table >>>>> true
+Batch1 :: Action SetData on Obj: Account_search_table
+Searching Account Using Identification Number for Service Type Selection: 2102203456
+Final visible status is ServiceType_AccountGo >>>>> false
+Final visible status is ServiceType_AccountGo >>>>> true
+Batch1 :: Action Click on Obj: ServiceType_AccountGo
+Final visible status is Account_search_table >>>>> true
+Batch1 :: Action Click on Obj: Account_search_table
+Final visible status is ServiceType_IdentificationTypeExpiryDate >>>>> true
+Batch1 :: Action SetText on Obj: ServiceType_IdentificationTypeExpiryDate - Value: 5/31/2020
+Entering Identification Number: 5/31/2020
+Final visible status is ServiceType_Bypassing >>>>> true
+Batch1 :: Action SetText on Obj: ServiceType_Bypassing - Value: Disabled
+Bypassing CIO Verification Disabled
+Final visible status is OrderSummaryTab >>>>> true
+Batch1 :: Action Click on Obj: OrderSummaryTab
+Final visible status is New_Service_Creation >>>>> true
+Batch1 :: Action Click on Obj: New_Service_Creation
+Final visible status is ServiceType >>>>> true
+Batch1 :: Action SetText on Obj: ServiceType - Value: Mobile_Prepaid
+Entering ServiceMobile_Prepaid
+Final visible status is ServiceType_Reason >>>>> true
+Batch1 :: Action SetText on Obj: ServiceType_Reason - Value: Activation Order
+Entering Order Reason Activation Order
+Final visible status is ServiceType_Ok >>>>> true
+No Alert Exist
+Service Type Created Successfully
+------ServiceType Creation Event Details - Completed------
+------Order Creation Event Details------
+Final visible status is Add_LineItem:New >>>>> true
+Clicking on Line Items Add button
+Final visible status is Productselection_table >>>>> true
+Batch1 :: Action Click on Obj: Productselection_table
+Final visible status is Productselection_table >>>>> true
+Batch1 :: Action Click on Obj: Productselection_table
+Final visible status is ProductName >>>>> true
+Batch1 :: Action SetText on Obj: ProductName - Value: Prepaid Data Only Starter Pack- 10GB
+Product Name Prepaid Data Only Starter Pack- 10GB
+Final visible status is Product_Gobutton >>>>> true
+Batch1 :: Action Click on Obj: Product_Gobutton
+Final visible status is OrderExpandTreeIcon_Prepaid >>>>> true
+Batch1 :: Action Click on Obj: OrderExpandTreeIcon_Prepaid
+Final visible status is querynumber_lineitems >>>>> true
+clicking querynumber_lineitems
+Final visible status is querynumber_lineitems >>>>> true
+Final visible status is Querynumber >>>>> true
+Batch1 :: Action SetDataE on Obj: Querynumber
+Search New MSISDN: 97372000019
+Final visible status is Querynumber >>>>> true
+Batch1 :: Action Click on Obj: Querynumber
+Final visible status is Querynumber_number >>>>> true
+Final visible status is Querynumber >>>>> true
+Batch1 :: Action Click on Obj: Querynumber
+Final visible status is Querynumber_number >>>>> true
+Batch1 :: Action at Obj: Select - is Visible
+ Clicking on Select Button
+Final visible status is Select >>>>> true
+Batch1 :: Action Click on Obj: Select
+Final visible status is OrderExpandTreeIcon >>>>> true
+Batch1 :: Action Click on Obj: OrderExpandTreeIcon
+Final visible status is Productselection_table >>>>> true
+Batch1 :: Action Click on Obj: Productselection_table
+Final visible status is Productselection_table >>>>> true
+Batch1 :: Action SetData on Obj: Productselection_table
+Entering SIM Number: 8999999200027860018
+Final visible status is OrderMenu_Btn >>>>> true
+Batch1 :: Action at Obj: OrderMenu_Btn - is Visible
+Final visible status is OrderMenu_Btn >>>>> true
+Batch1 :: Action Click on Obj: OrderMenu_Btn
+Batch1 :: Action at Obj: SaveRecord - is Visible
+Final visible status is SaveRecord >>>>> true
+Batch1 :: Action Click on Obj: SaveRecord
+Order Saved
+Final visible status is order_numfetch >>>>> true
+Final visible status is order_numfetch >>>>> true
+Order_NUM : 20020000342
+Order Created Successfully and Order ID is:  20020000342
+------Order Creation Event Details - Completed------
+------Order Payments Event Details------
+------Order Payment Event Details------
+Final visible status is order_numfetch >>>>> true
+Final visible status is order_numfetch >>>>> true
+Final visible status is Order_Total >>>>> true
+Final visible status is Payments >>>>> true
+Batch1 :: Action at Obj: Payments - is Visible
+Final visible status is Payments >>>>> true
+Batch1 :: Action Click on Obj: Payments
+Final visible status is Payment Lines:New >>>>> true
+Batch1 :: Action Click on Obj: Payment Lines:New
+Clicking on Create Payment
+No Alert Exist
+Final visible status is PaymentsTable >>>>> true
+Batch1 :: Action getCellData on Obj: PaymentsTable
+Final visible status is MakePaymentBtn >>>>> true
+Batch1 :: Action Click on Obj: MakePaymentBtn
+Entered in --- Prod
+connected to DB
+Order Number : 20020000342
+select row_id from siebel.s_order where order_num = '20020000342'
+Order ID : 1-1EP9OVVI
+Select PAY.ROW_ID,PAY.CREATED,PAY.PAY_STAT_CD,PAY.PAY_TYPE_CD,PAY.PAY_AMT From siebel.S_SRC_PAYMENT PAY Where PAY.ORDER_ID = '1-1EP9OVVI'
+  ********** Waiting Time is 1 Minutes  **********   SOAP API CALL COMPLETED *********** 
+Final visible status is PaymentsTable >>>>> true
+Batch1 :: Action getCellData on Obj: PaymentsTable
+ After Payment:Submitted
+Final visible status is SavePayment_Btn >>>>> true
+Batch1 :: Action Click on Obj: SavePayment_Btn
+Batch1 :: Action at Obj: Payment_saverecord - is Visible
+Final visible status is Payment_saverecord >>>>> true
+Batch1 :: Action Click on Obj: Payment_saverecord
+Clicked On Save Record
+Order Payment is Successfully completed 
+------Order Payment Event Details - Completed------
+Final visible status is SignatureCapture_Button >>>>> true
+Batch1 :: Action at Obj: SignatureCapture_Button - is Visible
+Final visible status is SignatureCapture_Button >>>>> true
+Batch1 :: Action Click on Obj: SignatureCapture_Button
+No Alert Exist
+Batch1 :: Action at Obj: signatureSave - is Visible
+Signature Captured
+Final visible status is signatureSave >>>>> true
+Batch1 :: Action Click on Obj: signatureSave
+Final visible status is Validate >>>>> true
+Signature Captured
+Final visible status is Validate >>>>> true
+Final visible status is Validate >>>>> true
+Batch1 :: Action Click on Obj: Validate
+Final visible status is DrafteForm_Btn >>>>> true
+Batch1 :: Action Click on Obj: DrafteForm_Btn
+Clicking On DrafteForm
+Final visible status is order_numfetch >>>>> true
+Current Order Number 20020000342
+No Alert Exist
+Final visible status is SubmitBtn >>>>> true
+Final visible status is SubmitBtn >>>>> true
+No Alert Exist
+Final visible status is SubmitBtn >>>>> true
+No Alert Exist
+ Clicking on Submit button
+Final visible status is Line_Items >>>>> true
+Final visible status is Line_Items >>>>> true
+Final visible status is SettingsButton >>>>> true
+Final visible status is SettingsButton >>>>> true
+Batch1 :: Action Click on Obj: SettingsButton
+Final visible status is RunQuery >>>>> true
+Batch1 :: Action Click on Obj: RunQuery
+Final visible status is OrderStatus >>>>> true
+ORDER TIME  Order Completion Time:  1 minutes, 21 seconds.
+Final visible status is Line_Items >>>>> true
+Final visible status is Line_Items >>>>> true
+Batch1 :: Action Click on Obj: Line_Items
+Final visible status is OrderExpandTreeIcon >>>>> true
+Batch1 :: Action Click on Obj: OrderExpandTreeIcon
+Newly Installed Assets after Order Submission
+Final visible status is Acc_Summarybtn >>>>> true
+After Refreshing the Browser Order Status: Order Status:Complete  and Order Completion Time:  1 minutes, 21 seconds.
+Final visible status is Acc_Summarybtn >>>>> true
+Batch1 :: Action Click on Obj: Acc_Summarybtn
+ Clicking on Account Summary button
+Final visible status is Accout_Status_Indicator >>>>> true
+Account Summary Detail
+Final visible status is Modify_button >>>>> true
+Installed Asset Detail
+Order payments is done Successfully Order Status:Complete  and Order Completion Time:  1 minutes, 21 seconds.
+------Order payments Details - Completed------
+------Siebel Logout Event Details------
+Batch1 :: Action at Obj: Settings_Tab - is Visible
+Final visible status is Settings_Tab >>>>> true
+Batch1 :: Action Click on Obj: Settings_Tab
+Clicking on Settings Tab
+Batch1 :: Action at Obj: Logout_Button - is Visible
+Final visible status is Logout_Button >>>>> true
+Batch1 :: Action Click on Obj: Logout_Button
+Clicking on Logout Button
+Logout Successful
+------Siebel Logout Event Details - Completed------
